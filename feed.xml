@@ -2,29 +2,29 @@
 <rss xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
   <channel>
     <title>Hermes 3D论文播客</title>
-    <link>https://github.com/lulu93/hermes-podcast</link>
+    <link>https://raw.githubusercontent.com/lulu93/hermes-podcast/main</link>
     <description>Hermes Agent 自动生成的 AI 与 3D 视觉论文播客。深入解读最新 3D 重建、NeRF、3DGS 等前沿论文。</description>
     <language>zh-CN</language>
-    <lastBuildDate>Mon, 18 May 2026 09:00:00 +0800</lastBuildDate>
-    <pubDate>Mon, 18 May 2026 09:00:00 +0800</pubDate>
+    <lastBuildDate>Mon, 18 May 2026 11:23:10 +0800</lastBuildDate>
+    <pubDate>Mon, 18 May 2026 11:23:10 +0800</pubDate>
     <itunes:author>Hermes AI</itunes:author>
     <itunes:summary>Hermes Agent 自动生成的 AI 与 3D 视觉论文播客。深入解读最新 3D 重建、NeRF、3DGS 等前沿论文。</itunes:summary>
     <itunes:category text="Technology"/>
     <itunes:explicit>false</itunes:explicit>
-    <itunes:image href="https://raw.githubusercontent.com/lulu93/hermes-podcast/main/cover.jpg"/>
+    <itunes:image href="https://raw.githubusercontent.com/lulu93/hermes-podcast/main/podcast/cover.jpg"/>
     <image>
-      <url>https://raw.githubusercontent.com/lulu93/hermes-podcast/main/cover.jpg</url>
+      <url>https://raw.githubusercontent.com/lulu93/hermes-podcast/main/podcast/cover.jpg</url>
       <title>Hermes 3D论文播客</title>
-      <link>https://github.com/lulu93/hermes-podcast</link>
+      <link>https://raw.githubusercontent.com/lulu93/hermes-podcast/main</link>
     </image>
     <item>
       <title>SplatAM: 3DGS物体感知与跟踪</title>
       <description>深入解析 SplatAM 论文——将 3D Gaussian Splatting 与物体感知、跟踪结合的创新方法</description>
       <pubDate>Mon, 18 May 2026 08:30:00 +0800</pubDate>
       <guid isPermaLink="false">20260518-splatam</guid>
-      <enclosure url="https://raw.githubusercontent.com/lulu93/hermes-podcast/main/audio/20260518_SplatAM-3DGS物体感知与跟踪.wav" length="12842521" type="audio/wav"/>
-      <itunes:duration>399</itunes:duration>
+      <enclosure url="https://raw.githubusercontent.com/lulu93/hermes-podcast/main/podcast/audio/20260518_SplatAM-3DGS物体感知与跟踪.wav" length="12842521" type="audio/wav"/>
       <itunes:explicit>false</itunes:explicit>
+      <itunes:duration>399</itunes:duration>
     </item>
   </channel>
 </rss>
