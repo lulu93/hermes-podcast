@@ -1,6 +1,18 @@
 {
   "episodes": [
     {
+      "filename": "20260518_查询范式崛起-D4RT与PointForward带来的前馈重建新方向.mp3",
+      "title": "查询范式崛起: D4RT与PointForward带来的前馈重建新方向",
+      "desc": "从D4RT和PointForward两条技术线的交汇，看前馈重建的下一步：查询范式取代密集预测，稀疏查询取代逐像素解码，Q4R统一4D世界模型。",
+      "url": "https://raw.githubusercontent.com/lulu93/hermes-podcast/main/audio/20260518_查询范式崛起-D4RT与PointForward带来的前馈重建新方向.mp3",
+      "size": 6533127,
+      "mime": "audio/mpeg",
+      "duration": 544,
+      "pubDate": "Mon, 18 May 2026 20:37:17 +0800",
+      "guid": "20260518-82c76d21",
+      "hash": "82c76d21fc52dc5fb7d31b1630dcc71f"
+    },
+    {
       "filename": "20260518_PointForward-点对齐前馈驾驶场景重建.mp3",
       "title": "PointForward: 点对齐前馈驾驶场景重建",
       "desc": "小米汽车+HUST+浙江大学提出的PointForward，用点对齐表示替代传统逐像素高斯预测，在3D世界空间建立稀疏查询点，通过时空融合实现多视图几何一致性，Waymo PSNR 28.48超越DGGT+1.1dB。",

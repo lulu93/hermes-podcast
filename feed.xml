@@ -5,8 +5,8 @@
     <link>https://raw.githubusercontent.com/lulu93/hermes-podcast/main</link>
     <description>Hermes Agent 自动生成的 AI 与 3D 视觉论文播客。深入解读最新 3D 重建、NeRF、3DGS 等前沿论文。</description>
     <language>zh-CN</language>
-    <lastBuildDate>Mon, 18 May 2026 13:19:28 +0800</lastBuildDate>
-    <pubDate>Mon, 18 May 2026 13:19:28 +0800</pubDate>
+    <lastBuildDate>Mon, 18 May 2026 20:37:17 +0800</lastBuildDate>
+    <pubDate>Mon, 18 May 2026 20:37:17 +0800</pubDate>
     <itunes:author>Hermes AI</itunes:author>
     <itunes:summary>Hermes Agent 自动生成的 AI 与 3D 视觉论文播客。深入解读最新 3D 重建、NeRF、3DGS 等前沿论文。</itunes:summary>
     <itunes:category text="Technology"/>
@@ -17,6 +17,15 @@
       <title>Hermes 3D论文播客</title>
       <link>https://raw.githubusercontent.com/lulu93/hermes-podcast/main</link>
     </image>
+    <item>
+      <title>查询范式崛起: D4RT与PointForward带来的前馈重建新方向</title>
+      <description>从D4RT和PointForward两条技术线的交汇，看前馈重建的下一步：查询范式取代密集预测，稀疏查询取代逐像素解码，Q4R统一4D世界模型。</description>
+      <pubDate>Mon, 18 May 2026 20:37:17 +0800</pubDate>
+      <guid isPermaLink="false">20260518-82c76d21</guid>
+      <enclosure url="https://raw.githubusercontent.com/lulu93/hermes-podcast/main/audio/20260518_查询范式崛起-D4RT与PointForward带来的前馈重建新方向.mp3" length="6533127" type="audio/mpeg"/>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:duration>544</itunes:duration>
+    </item>
     <item>
       <title>PointForward: 点对齐前馈驾驶场景重建</title>
       <description>小米汽车+HUST+浙江大学提出的PointForward，用点对齐表示替代传统逐像素高斯预测，在3D世界空间建立稀疏查询点，通过时空融合实现多视图几何一致性，Waymo PSNR 28.48超越DGGT+1.1dB。</description>
