@@ -1,6 +1,18 @@
 {
   "episodes": [
     {
+      "filename": "20260518_PointForward-点对齐前馈驾驶场景重建.mp3",
+      "title": "PointForward: 点对齐前馈驾驶场景重建",
+      "desc": "小米汽车+HUST+浙江大学提出的PointForward，用点对齐表示替代传统逐像素高斯预测，在3D世界空间建立稀疏查询点，通过时空融合实现多视图几何一致性，Waymo PSNR 28.48超越DGGT+1.1dB。",
+      "url": "https://raw.githubusercontent.com/lulu93/hermes-podcast/main/audio/20260518_PointForward-点对齐前馈驾驶场景重建.mp3",
+      "size": 5729913,
+      "mime": "audio/mpeg",
+      "duration": 477,
+      "pubDate": "Mon, 18 May 2026 13:19:28 +0800",
+      "guid": "20260518-4fbe16bf",
+      "hash": "4fbe16bf7f16fb2742b51888cbb1a27b"
+    },
+    {
       "filename": "20260518_SLAM-Former完整解析-一个Transformer统一SLAM前端与后端.mp3",
       "title": "SLAM-Former完整解析: 一个Transformer统一SLAM前端与后端",
       "desc": "基于2509.16909完整13KB分析笔记生成。NeurIPS 2025。单Transformer统一SLAM前端增量建图+后端全局优化，KV Cache共享，重建精度SOTA。",
