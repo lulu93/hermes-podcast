@@ -1,6 +1,18 @@
 {
   "episodes": [
     {
+      "filename": "20260518_SLAM-Former-一个Transformer统一SLAM前端与后端.mp3",
+      "title": "SLAM-Former: 一个Transformer统一SLAM前端与后端",
+      "desc": "本期深入解读清华大学MARS Lab的NeurIPS 2025论文SLAM-Former。这篇论文提出用单个Transformer完成SLAM的全部功能——前端增量跟踪建图、后端全局优化回环闭合，两者通过共享KV Cache实现双向促进。在Replica数据集上的重建精度Accuracy 2.09cm碾压所有baseline，7-Scenes上跟踪误差降低37%。节目将分析其技术架构、三种训练模式、与已有方法对比，以及对SLAM Transformer化趋势的启示。",
+      "url": "https://raw.githubusercontent.com/lulu93/hermes-podcast/main/audio/20260518_SLAM-Former-一个Transformer统一SLAM前端与后端.mp3",
+      "size": 1624617,
+      "mime": "audio/mpeg",
+      "duration": 135,
+      "pubDate": "Mon, 18 May 2026 12:40:40 +0800",
+      "guid": "20260518-2f29ad4d",
+      "hash": "2f29ad4d2bf5ea7b46eb42498df2a2db"
+    },
+    {
       "filename": "20260518_SplatAM-3DGS物体感知与跟踪.wav",
       "title": "SplatAM: 3DGS物体感知与跟踪",
       "desc": "深入解析 SplatAM 论文——将 3D Gaussian Splatting 与物体感知、跟踪结合的创新方法",
