@@ -1,6 +1,18 @@
 {
   "episodes": [
     {
+      "filename": "20260518_SLAM-Former完整解析-一个Transformer统一SLAM前端与后端.mp3",
+      "title": "SLAM-Former完整解析: 一个Transformer统一SLAM前端与后端",
+      "desc": "基于2509.16909完整13KB分析笔记生成。NeurIPS 2025。单Transformer统一SLAM前端增量建图+后端全局优化，KV Cache共享，重建精度SOTA。",
+      "url": "https://raw.githubusercontent.com/lulu93/hermes-podcast/main/audio/20260518_SLAM-Former完整解析-一个Transformer统一SLAM前端与后端.mp3",
+      "size": 13950801,
+      "mime": "audio/mpeg",
+      "duration": 1162,
+      "pubDate": "Mon, 18 May 2026 13:03:17 +0800",
+      "guid": "20260518-eaf023cb",
+      "hash": "eaf023cb272fd7069ded5124418c3b90"
+    },
+    {
       "filename": "20260518_SLAM-Former-一个Transformer统一SLAM前端与后端.mp3",
       "title": "SLAM-Former: 一个Transformer统一SLAM前端与后端",
       "desc": "本期深入解读清华大学MARS Lab的NeurIPS 2025论文SLAM-Former。这篇论文提出用单个Transformer完成SLAM的全部功能——前端增量跟踪建图、后端全局优化回环闭合，两者通过共享KV Cache实现双向促进。在Replica数据集上的重建精度Accuracy 2.09cm碾压所有baseline，7-Scenes上跟踪误差降低37%。节目将分析其技术架构、三种训练模式、与已有方法对比，以及对SLAM Transformer化趋势的启示。",
