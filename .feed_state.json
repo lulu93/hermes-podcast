@@ -1,0 +1,16 @@
+{
+  "episodes": [
+    {
+      "filename": "20260518_SplatAM-3DGS物体感知与跟踪.wav",
+      "title": "SplatAM: 3DGS物体感知与跟踪",
+      "desc": "深入解析 SplatAM 论文——将 3D Gaussian Splatting 与物体感知、跟踪结合的创新方法",
+      "url": "https://raw.githubusercontent.com/lulu93/hermes-podcast/main/audio/20260518_SplatAM-3DGS物体感知与跟踪.wav",
+      "size": 12842521,
+      "mime": "audio/wav",
+      "duration": 399,
+      "pubDate": "Mon, 18 May 2026 08:30:00 +0800",
+      "guid": "20260518-splatam",
+      "hash": "9161104a630d6e6fcd256240db76c4b5"
+    }
+  ]
+}
