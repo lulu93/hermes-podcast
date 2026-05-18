@@ -1,6 +1,18 @@
 {
   "episodes": [
     {
+      "filename": "20260518_D4RT-高效统一动态4D重建与追踪.mp3",
+      "title": "D4RT: 高效统一动态4D重建与追踪",
+      "desc": "Google DeepMind + Oxford 提出 D4RT。按需查询范式替代逐帧密集解码，一个编码器+一个解码器统一输出点云、深度图、点轨迹、相机内外参。200+ FPS位姿估计，18-300×追踪吞吐量。SOTA on TAPVid-3D、Sintel、ScanNet。",
+      "url": "https://raw.githubusercontent.com/lulu93/hermes-podcast/main/audio/20260518_D4RT-高效统一动态4D重建与追踪.mp3",
+      "size": 14602068,
+      "mime": "audio/mpeg",
+      "duration": 1216,
+      "pubDate": "Mon, 18 May 2026 20:48:41 +0800",
+      "guid": "20260518-9fb655c1",
+      "hash": "9fb655c159398949c49957cc34d97e58"
+    },
+    {
       "filename": "20260518_查询范式崛起-D4RT与PointForward带来的前馈重建新方向.mp3",
       "title": "查询范式崛起: D4RT与PointForward带来的前馈重建新方向",
       "desc": "从D4RT和PointForward两条技术线的交汇，看前馈重建的下一步：查询范式取代密集预测，稀疏查询取代逐像素解码，Q4R统一4D世界模型。",
