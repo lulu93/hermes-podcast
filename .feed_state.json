@@ -1,6 +1,18 @@
 {
   "episodes": [
     {
+      "filename": "20260520_多视图3D目标检测全技术演进从DETR3D到DetAny4D.mp3",
+      "title": "多视图3D目标检测全技术演进：从DETR3D到DetAny4D",
+      "desc": "本期从稀疏查询范式的开创者DETR3D讲起，深入梳理了PETR的3D位置编码、BEVFormer的时空BEV、Sparse4D的稀疏时空融合，再到SOLOFusion的长时序理论、StreamPETR的流式检测、DySS的Mamba探索、SQS的3DGS预训练、OcRFDet的NeRF辅助，最后以DetAny4D的开放集端到端4D检测作为当前路线终点。完整覆盖2019-2026七年14篇关键论文的技术演进。",
+      "url": "https://raw.githubusercontent.com/lulu93/hermes-podcast/main/audio/20260520_多视图3D目标检测全技术演进从DETR3D到DetAny4D.mp3",
+      "size": 26212797,
+      "mime": "audio/mpeg",
+      "duration": 2184,
+      "pubDate": "Wed, 20 May 2026 10:31:38 +0800",
+      "guid": "20260520-d02adaf5",
+      "hash": "d02adaf512cd42a6553c416124d72d5e"
+    },
+    {
       "filename": "20260518_D4RT-高效统一动态4D重建与追踪.mp3",
       "title": "D4RT: 高效统一动态4D重建与追踪",
       "desc": "Google DeepMind + Oxford 提出 D4RT。按需查询范式替代逐帧密集解码，一个编码器+一个解码器统一输出点云、深度图、点轨迹、相机内外参。200+ FPS位姿估计，18-300×追踪吞吐量。SOTA on TAPVid-3D、Sintel、ScanNet。",
