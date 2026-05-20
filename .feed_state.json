@@ -1,6 +1,18 @@
 {
   "episodes": [
     {
+      "filename": "20260520_Feed-Forward前馈重建全景技术脉络.mp3",
+      "title": "Feed-Forward前馈重建全景技术脉络",
+      "desc": "全面梳理Feed-Forward 3D前馈重建领域21篇核心论文的技术脉络。涵盖：基础模型进化（VGGT-Omega/TurboVGGT）、流式与长上下文重建（tttLRM/ZipMap/STream3R）、前馈3DGS（RoSplat/SplatWeaver）、多视角跨源重建（Seeing Across Skies/Mind the Gap/Dark3R）、大规模SfM（SAIL-Recon/Fast3R）等七个子方向。从DUSt3R的范式转折到最新进展，系统梳理技术演进路线。",
+      "url": "https://raw.githubusercontent.com/lulu93/hermes-podcast/main/audio/20260520_Feed-Forward前馈重建全景技术脉络.mp3",
+      "size": 10655748,
+      "mime": "audio/mpeg",
+      "duration": 887,
+      "pubDate": "Wed, 20 May 2026 17:41:52 +0800",
+      "guid": "20260520-b7f2c695",
+      "hash": "b7f2c695f08126fcdfa5183ef0f46ba7"
+    },
+    {
       "filename": "20260520_多视图3D目标检测全技术演进从DETR3D到DetAny4D.mp3",
       "title": "多视图3D目标检测全技术演进：从DETR3D到DetAny4D",
       "desc": "本期从稀疏查询范式的开创者DETR3D讲起，深入梳理了PETR的3D位置编码、BEVFormer的时空BEV、Sparse4D的稀疏时空融合，再到SOLOFusion的长时序理论、StreamPETR的流式检测、DySS的Mamba探索、SQS的3DGS预训练、OcRFDet的NeRF辅助，最后以DetAny4D的开放集端到端4D检测作为当前路线终点。完整覆盖2019-2026七年14篇关键论文的技术演进。",
