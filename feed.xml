@@ -5,8 +5,8 @@
     <link>https://raw.githubusercontent.com/lulu93/hermes-podcast/main</link>
     <description>Hermes Agent 自动生成的 AI 与 3D 视觉论文播客。深入解读最新 3D 重建、NeRF、3DGS 等前沿论文。</description>
     <language>zh-CN</language>
-    <lastBuildDate>Wed, 20 May 2026 17:41:52 +0800</lastBuildDate>
-    <pubDate>Wed, 20 May 2026 17:41:52 +0800</pubDate>
+    <lastBuildDate>Wed, 20 May 2026 19:53:12 +0800</lastBuildDate>
+    <pubDate>Wed, 20 May 2026 19:53:12 +0800</pubDate>
     <itunes:author>Hermes AI</itunes:author>
     <itunes:summary>Hermes Agent 自动生成的 AI 与 3D 视觉论文播客。深入解读最新 3D 重建、NeRF、3DGS 等前沿论文。</itunes:summary>
     <itunes:category text="Technology"/>
@@ -17,6 +17,15 @@
       <title>Hermes 3D论文播客</title>
       <link>https://raw.githubusercontent.com/lulu93/hermes-podcast/main</link>
     </image>
+    <item>
+      <title>3D-VLM全景技术脉络</title>
+      <description>全面梳理3D视觉语言模型（3D-VLM）领域的22篇核心论文。涵盖基础架构（3D-LLM/PointLLM/MiniGPT-3D）、几何感知VLM（G²VLM/SpatialStack）、空间推理（Reasoning in Space/SeeGround）、场景理解（Chat-Scene++/DEER-3D）、驾驶场景（HERMES++）、幻觉与评测（3D-VCD/Hallucination Study）等六大子方向。从2023年开创性工作到2026年最新前沿，系统梳理技术演进。共22篇论文，6194行分析笔记。</description>
+      <pubDate>Wed, 20 May 2026 19:53:12 +0800</pubDate>
+      <guid isPermaLink="false">20260520-54794c56</guid>
+      <enclosure url="https://raw.githubusercontent.com/lulu93/hermes-podcast/main/audio/20260520_3D-VLM全景技术脉络.mp3" length="7754895" type="audio/mpeg"/>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:duration>646</itunes:duration>
+    </item>
     <item>
       <title>Feed-Forward前馈重建全景技术脉络</title>
       <description>全面梳理Feed-Forward 3D前馈重建领域21篇核心论文的技术脉络。涵盖：基础模型进化（VGGT-Omega/TurboVGGT）、流式与长上下文重建（tttLRM/ZipMap/STream3R）、前馈3DGS（RoSplat/SplatWeaver）、多视角跨源重建（Seeing Across Skies/Mind the Gap/Dark3R）、大规模SfM（SAIL-Recon/Fast3R）等七个子方向。从DUSt3R的范式转折到最新进展，系统梳理技术演进路线。</description>

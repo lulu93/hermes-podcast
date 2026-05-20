@@ -1,6 +1,18 @@
 {
   "episodes": [
     {
+      "filename": "20260520_3D-VLM全景技术脉络.mp3",
+      "title": "3D-VLM全景技术脉络",
+      "desc": "全面梳理3D视觉语言模型（3D-VLM）领域的22篇核心论文。涵盖基础架构（3D-LLM/PointLLM/MiniGPT-3D）、几何感知VLM（G²VLM/SpatialStack）、空间推理（Reasoning in Space/SeeGround）、场景理解（Chat-Scene++/DEER-3D）、驾驶场景（HERMES++）、幻觉与评测（3D-VCD/Hallucination Study）等六大子方向。从2023年开创性工作到2026年最新前沿，系统梳理技术演进。共22篇论文，6194行分析笔记。",
+      "url": "https://raw.githubusercontent.com/lulu93/hermes-podcast/main/audio/20260520_3D-VLM全景技术脉络.mp3",
+      "size": 7754895,
+      "mime": "audio/mpeg",
+      "duration": 646,
+      "pubDate": "Wed, 20 May 2026 19:53:12 +0800",
+      "guid": "20260520-54794c56",
+      "hash": "54794c569c87d4bea98d16138b0a5553"
+    },
+    {
       "filename": "20260520_Feed-Forward前馈重建全景技术脉络.mp3",
       "title": "Feed-Forward前馈重建全景技术脉络",
       "desc": "全面梳理Feed-Forward 3D前馈重建领域21篇核心论文的技术脉络。涵盖：基础模型进化（VGGT-Omega/TurboVGGT）、流式与长上下文重建（tttLRM/ZipMap/STream3R）、前馈3DGS（RoSplat/SplatWeaver）、多视角跨源重建（Seeing Across Skies/Mind the Gap/Dark3R）、大规模SfM（SAIL-Recon/Fast3R）等七个子方向。从DUSt3R的范式转折到最新进展，系统梳理技术演进路线。",
