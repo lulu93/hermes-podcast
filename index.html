@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>🎙️ 播客 - 论文知识库</title>
+<style>
+:root {   --bg: #f5f5f5;
+  --card-bg: #fff;
+  --text: #333;
+  --text-secondary: #555;
+  --text-muted: #999;
+  --border: #eee;
+  --code-bg: #f0f0f0;
+  --card-shadow: 0 1px 3px rgba(0,0,0,0.08);
+  --card-hover-shadow: 0 4px 12px rgba(0,0,0,0.12);
+  --link: #667eea;
+  --link-hover: #4a57cc;
+  --gradient-from: #667eea;
+  --gradient-to: #764ba2;
+  --badge-bg: #e8eeff;
+  --badge-text: #5566aa;
+  --player-bg: #f0f4ff;
+  --player-border: #d0d8f0;
+  --player-text: #5566aa;
+  --table-stripe: #fafafa;
+  --toc-bg: #f8f9ff;
+  --toc-border: #667eea;
+  --broken-link: #999;
+  --broken-border: #ddd;
+  --tag-bg: #667eea;
+  --tag-text: #fff;
+  --backlink-bg: #f8f9ff;
+  --header-text: #fff;
+ }
+@media (prefers-color-scheme: dark) { :root {   --bg: #1a1a2e;
+  --card-bg: #252540;
+  --text: #ddd;
+  --text-secondary: #bbb;
+  --text-muted: #888;
+  --border: #3a3a55;
+  --code-bg: #2a2a40;
+  --card-shadow: 0 1px 3px rgba(0,0,0,0.3);
+  --card-hover-shadow: 0 4px 12px rgba(0,0,0,0.5);
+  --link: #8899ee;
+  --link-hover: #aabbff;
+  --gradient-from: #4a3a8a;
+  --gradient-to: #5a3a7a;
+  --badge-bg: #3a3a60;
+  --badge-text: #99aadd;
+  --player-bg: #2a2a45;
+  --player-border: #3a3a60;
+  --player-text: #99aadd;
+  --table-stripe: #2a2a40;
+  --toc-bg: #2a2a45;
+  --toc-border: #8899ee;
+  --broken-link: #777;
+  --broken-border: #555;
+  --tag-bg: #4a3a8a;
+  --tag-text: #ddd;
+  --backlink-bg: #2a2a45;
+  --header-text: #fff;
+ } }
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; background: var(--bg); color: var(--text); line-height: 1.8; }
+.container { max-width: 860px; margin: 0 auto; padding: 20px; }
+.header { background: linear-gradient(135deg, var(--gradient-from) 0%, var(--gradient-to) 100%); color: var(--header-text); padding: 20px 30px; border-radius: 12px; margin-bottom: 20px; }
+.header h1 { font-size: 20px; }
+.header .back { float: right; color: rgba(255,255,255,0.8); text-decoration: none; font-size: 14px; }
+.header .back:hover { color: white; }
+.breadcrumb { font-size: 12px; color: rgba(255,255,255,0.7); margin-bottom: 8px; }
+.breadcrumb a { color: rgba(255,255,255,0.8); text-decoration: none; }
+.breadcrumb a:hover { color: white; text-decoration: underline; }
+.bc-sep { margin: 0 6px; opacity: 0.5; }
+.bc-current { color: white; }
+.podcast-player { background: var(--player-bg); border: 1px solid var(--player-border); border-radius: 10px; padding: 14px 16px; margin-bottom: 16px; }
+.podcast-player .player-header { font-size: 13px; color: var(--player-text); margin-bottom: 8px; font-weight: 600; }
+.podcast-player audio { width: 100%; height: 40px; }
+.content { background: var(--card-bg); border-radius: 12px; padding: 30px 35px; box-shadow: var(--card-shadow); }
+.content h1 { font-size: 22px; color: var(--text); margin: 24px 0 12px; border-bottom: 1px solid var(--border); padding-bottom: 6px; }
+.content h2 { font-size: 18px; color: var(--text-secondary); margin: 20px 0 10px; }
+.content h3 { font-size: 16px; color: var(--text-muted); margin: 16px 0 8px; }
+.content p { margin: 8px 0; }
+.content a { color: var(--link); text-decoration: none; }
+.content a:hover { text-decoration: underline; }
+.content code { background: var(--code-bg); padding: 2px 6px; border-radius: 3px; font-size: 13px; }
+.content pre { background: var(--code-bg); padding: 14px; border-radius: 8px; overflow-x: auto; font-size: 13px; line-height: 1.5; margin: 12px 0; }
+.content pre code { background: none; padding: 0; }
+.content hr { border: none; border-top: 1px solid var(--border); margin: 20px 0; }
+.content ul { padding-left: 20px; margin: 8px 0; }
+.content li { margin: 4px 0; }
+.content img { max-width: 100%; border-radius: 8px; margin: 12px 0; }
+.img-link { display: inline-block; max-width: 100%; cursor: zoom-in; }
+.img-link:hover { opacity: 0.9; }
+.content table { border-collapse: collapse; width: 100%; margin: 12px 0; font-size: 13px; }
+.content td { border: 1px solid var(--border); padding: 8px; }
+.content tr:nth-child(even) { background: var(--table-stripe); }
+.content blockquote { border-left: 4px solid var(--toc-border); padding: 8px 16px; background: var(--backlink-bg); margin: 12px 0; border-radius: 4px; }
+.wikilink-broken { color: var(--broken-link); border-bottom: 1px dashed var(--broken-border); cursor: default; }
+.tags { margin: 8px 0; }
+.tag { display: inline-block; background: var(--tag-bg); color: var(--tag-text); padding: 2px 10px; border-radius: 12px; font-size: 11px; margin: 2px; text-decoration: none; }
+.tag:hover { opacity: 0.85; }
+.toc-container { background: var(--toc-bg); border-radius: 10px; margin-bottom: 16px; border-left: 3px solid var(--toc-border); overflow: hidden; }
+.toc-container details { padding: 0; }
+.toc-container summary { list-style: none; cursor: pointer; padding: 10px 14px; user-select: none; -webkit-user-select: none; display: flex; align-items: center; gap: 6px; font-size: 14px; font-weight: 600; color: var(--text-secondary); }
+.toc-container summary::-webkit-details-marker { display: none; }
+.toc-container summary::before { content: '▶'; font-size: 10px; transition: transform 0.2s; color: var(--link); }
+.toc-container details[open] summary::before { content: '▼'; }
+.toc-list { list-style: none; font-size: 13px; padding: 0 14px 10px; max-height: 60vh; overflow-y: auto; }
+.toc-list li { margin: 4px 0; }
+.toc-list a { color: var(--link); text-decoration: none; }
+.toc-list a:hover { text-decoration: underline; }
+.toc-h2 { padding-left: 16px; }
+@media (min-width: 768px) { .toc-container details { display: block; }
+  .toc-container summary::before { content: ''; }
+  .toc-container summary { cursor: default; } }
+.backlinks { margin-top: 24px; padding: 16px 20px; background: var(--backlink-bg); border-radius: 10px; }
+.backlinks h3 { font-size: 14px; color: var(--text-secondary); margin-bottom: 8px; }
+.backlinks ul { list-style: none; padding: 0; }
+.backlinks li { margin: 3px 0; font-size: 13px; }
+.backlinks a { color: var(--link); text-decoration: none; }
+.backlinks a:hover { text-decoration: underline; }
+.footer { text-align: center; color: var(--text-muted); font-size: 12px; padding: 20px; }
+.footer a { color: var(--link); text-decoration: none; }
+.container {{ max-width: 700px; }}
+.episode {{ background: var(--card-bg); border-radius: 10px; padding: 16px 20px; margin-bottom: 12px; box-shadow: var(--card-shadow); }}
+.ep-title {{ font-size: 15px; font-weight: 600; color: var(--text); margin-bottom: 4px; }}
+.ep-link {{ color: var(--link); text-decoration: none; }}
+.ep-link:hover {{ text-decoration: underline; }}
+.ep-meta {{ font-size: 12px; color: var(--text-muted); margin-bottom: 8px; }}
+.episode audio {{ width: 100%; height: 40px; }}
+</style>
+</head></head>
+<body>
+<div class="container">
+  <div class="header">
+    <a href="/" style="color:rgba(255,255,255,0.8);float:right;text-decoration:none;font-size:14px">← 知识库</a>
+    <h1>🎙️ 论文播客</h1>
+    <p style="opacity:0.85;font-size:14px">共 13 期</p>
+  </div>
+  <div class="episode">
+    <div class="ep-title"><a href="/分析笔记/查询范式崛起：D4RT与PointForward带来的前馈重建新方向.html" class="ep-link">🎙️ D4RT: 高效统一动态4D重建与追踪</a></div>
+    <div class="ep-meta">⏱ 20:16</div>
+    <audio controls style="width:100%">
+      <source src="/podcast/audio/20260518_D4RT-高效统一动态4D重建与追踪.mp3" type="audio/mpeg">
+    </audio>
+  </div>
+  <div class="episode">
+    <div class="ep-title"><a href="/Feed-Forward%20前馈重建/PointForward%20—%20点对齐前馈驾驶场景重建.html" class="ep-link">🎙️ 查询范式崛起: D4RT与PointForward带来的前馈重建新方向</a></div>
+    <div class="ep-meta">⏱ 9:04</div>
+    <audio controls style="width:100%">
+      <source src="/podcast/audio/20260518_查询范式崛起-D4RT与PointForward带来的前馈重建新方向.mp3" type="audio/mpeg">
+    </audio>
+  </div>
+  <div class="episode">
+    <div class="ep-title">🎙️ PointForward: 点对齐前馈驾驶场景重建</div>
+    <div class="ep-meta">⏱ 7:57</div>
+    <audio controls style="width:100%">
+      <source src="/podcast/audio/20260518_PointForward-点对齐前馈驾驶场景重建.mp3" type="audio/mpeg">
+    </audio>
+  </div>
+  <div class="episode">
+    <div class="ep-title"><a href="/SLAM/SLAM-Former：%20Putting%20SLAM%20into%20One%20Transformer.html" class="ep-link">🎙️ SLAM-Former完整解析: 一个Transformer统一SLAM前端与后端</a></div>
+    <div class="ep-meta">⏱ 19:22</div>
+    <audio controls style="width:100%">
+      <source src="/podcast/audio/20260518_SLAM-Former完整解析-一个Transformer统一SLAM前端与后端.mp3" type="audio/mpeg">
+    </audio>
+  </div>
+  <div class="episode">
+    <div class="ep-title"><a href="/3DGS/SplaTAM%20—%203DGS-SLAM的开山之作与领域全景.html" class="ep-link">🎙️ SplatAM: 3DGS物体感知与跟踪</a></div>
+    <div class="ep-meta">⏱ 6:39</div>
+    <audio controls style="width:100%">
+      <source src="/podcast/audio/20260518_SplatAM-3DGS物体感知与跟踪.wav" type="audio/mpeg">
+    </audio>
+  </div>
+  <div class="episode">
+    <div class="ep-title"><a href="/分析笔记/3D-VLM%20空间智能的度量与边界.html" class="ep-link">🎙️ 3D-VLM 空间智能的度量与边界</a></div>
+    <div class="ep-meta">⏱ 20:16</div>
+    <audio controls style="width:100%">
+      <source src="/podcast/audio/3D-VLM_空间智能的度量与边界.mp3" type="audio/mpeg">
+    </audio>
+  </div>
+  <div class="episode">
+    <div class="ep-title"><a href="/分析笔记/3D%20生成%20扩散LLM与Agent三条路径.html" class="ep-link">🎙️ 3D生成 扩散LLM与Agent三条路径</a></div>
+    <div class="ep-meta">⏱ 28:59</div>
+    <audio controls style="width:100%">
+      <source src="/podcast/audio/3D生成_扩散LLM与Agent三条路径.mp3" type="audio/mpeg">
+    </audio>
+  </div>
+  <div class="episode">
+    <div class="ep-title"><a href="/分析笔记/3D评测数据集与综述%20度量智能与数据基础.html" class="ep-link">🎙️ 3D评测数据集与综述</a></div>
+    <div class="ep-meta">⏱ 13:44</div>
+    <audio controls style="width:100%">
+      <source src="/podcast/audio/3D评测数据集与综述.mp3" type="audio/mpeg">
+    </audio>
+  </div>
+  <div class="episode">
+    <div class="ep-title"><a href="/分析笔记/Feed-Forward%203D%20全球生态（完整版）.html" class="ep-link">🎙️ Feed-Forward 3D全球生态</a></div>
+    <div class="ep-meta">⏱ 23:44</div>
+    <audio controls style="width:100%">
+      <source src="/podcast/audio/Feed-Forward_3D全球生态.mp3" type="audio/mpeg">
+    </audio>
+  </div>
+  <div class="episode">
+    <div class="ep-title"><a href="/Feed-Forward%20前馈重建/VGGT-Omega%2010B参数前馈重建.html" class="ep-link">🎙️ VGGT-Omega 10B前馈重建</a></div>
+    <div class="ep-meta">⏱ 24:02</div>
+    <audio controls style="width:100%">
+      <source src="/podcast/audio/VGGT-Omega_10B前馈重建.mp3" type="audio/mpeg">
+    </audio>
+  </div>
+  <div class="episode">
+    <div class="ep-title">🎙️ arxiv briefing 0516 doubao</div>
+    <div class="ep-meta">⏱ 4:01</div>
+    <audio controls style="width:100%">
+      <source src="/podcast/audio/arxiv_briefing_0516_doubao.mp3" type="audio/mpeg">
+    </audio>
+  </div>
+  <div class="episode">
+    <div class="ep-title"><a href="/分析笔记/可微BA发展历程%20从经典优化到隐式推理.html" class="ep-link">🎙️ 可微BA 从经典优化到隐式推理</a></div>
+    <div class="ep-meta">⏱ 28:00</div>
+    <audio controls style="width:100%">
+      <source src="/podcast/audio/可微BA_从经典优化到隐式推理.mp3" type="audio/mpeg">
+    </audio>
+  </div>
+  <div class="episode">
+    <div class="ep-title"><a href="/分析笔记/基础方法与统一框架%20扩散模型隐式表示NeRF与统一3D.html" class="ep-link">🎙️ 基础方法与统一框架</a></div>
+    <div class="ep-meta">⏱ 17:51</div>
+    <audio controls style="width:100%">
+      <source src="/podcast/audio/基础方法与统一框架.mp3" type="audio/mpeg">
+    </audio>
+  </div>
+
+  <div class="footer"><a href="/">← 返回首页</a></div>
+</div>
+</body>
+</html>
