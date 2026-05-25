@@ -1,6 +1,18 @@
 {
   "episodes": [
     {
+      "filename": "20260525_GemDepth首个几何引导视频深度估计框架精度全面SOTA.mp3",
+      "title": "GemDepth：首个几何引导视频深度估计框架，精度全面SOTA",
+      "desc": "ICML 2026 | 华科杨欣团队 & 酷睿程提出GemDepth，在视频深度估计中首次引入显式相机位姿嵌入作为几何先验，告别2D盲目平滑。GEM模块预测6-DoF位姿，ASTT模块交替做时序对齐与空间细化，仅0.58B参数碾压DA3和VGGT，Bonn点云F1从78.44跃升至90.43。",
+      "url": "https://raw.githubusercontent.com/lulu93/hermes-podcast/main/audio/20260525_GemDepth首个几何引导视频深度估计框架精度全面SOTA.mp3",
+      "size": 34958925,
+      "mime": "audio/mpeg",
+      "duration": 2913,
+      "pubDate": "Mon, 25 May 2026 22:33:59 +0800",
+      "guid": "20260525-d84d5250",
+      "hash": "d84d52508c4a7fe0f5b8942b61fd870f"
+    },
+    {
       "filename": "20260520_3D-VLM全景技术脉络.mp3",
       "title": "3D-VLM全景技术脉络",
       "desc": "全面梳理3D视觉语言模型（3D-VLM）领域的22篇核心论文。涵盖基础架构（3D-LLM/PointLLM/MiniGPT-3D）、几何感知VLM（G²VLM/SpatialStack）、空间推理（Reasoning in Space/SeeGround）、场景理解（Chat-Scene++/DEER-3D）、驾驶场景（HERMES++）、幻觉与评测（3D-VCD/Hallucination Study）等六大子方向。从2023年开创性工作到2026年最新前沿，系统梳理技术演进。共22篇论文，6194行分析笔记。",
