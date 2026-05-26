@@ -1,6 +1,18 @@
 {
   "episodes": [
     {
+      "filename": "20260526_Good-Token-HuntingVGT时代的token狩猎指南.mp3",
+      "title": "Good Token Hunting：VGT时代的token狩猎指南",
+      "desc": "本期深入讨论 Good Token Hunting（arXiv: 2605.23892，多伦多大学/Google/TU Munich，2026年），一篇系统性研究VGT全局注意力token选择策略的论文。核心发现：通过帧间多样性选择+帧内层级感知剪枝的两阶段层次化方案，在500帧场景中加速超85%，甚至超越基线精度——发现了冗余token实际上在干扰模型决策。我们聊了五个帧间选择策略的横向对比、注意力熵的层级分析、训练无关与重训练方案的根本差异，以及这份研究对VGT家族（VGGT/π3/LiteVGGT/SparseVGGT）生态的影响。",
+      "url": "https://raw.githubusercontent.com/lulu93/hermes-podcast/main/audio/20260526_Good-Token-HuntingVGT时代的token狩猎指南.mp3",
+      "size": 26780787,
+      "mime": "audio/mpeg",
+      "duration": 2231,
+      "pubDate": "Tue, 26 May 2026 20:40:35 +0800",
+      "guid": "20260526-ac646f47",
+      "hash": "ac646f47f9042b9c219370d397fddd47"
+    },
+    {
       "filename": "20260525_GemDepth首个几何引导视频深度估计框架精度全面SOTA.mp3",
       "title": "GemDepth：首个几何引导视频深度估计框架，精度全面SOTA",
       "desc": "ICML 2026 | 华科杨欣团队 & 酷睿程提出GemDepth，在视频深度估计中首次引入显式相机位姿嵌入作为几何先验，告别2D盲目平滑。GEM模块预测6-DoF位姿，ASTT模块交替做时序对齐与空间细化，仅0.58B参数碾压DA3和VGGT，Bonn点云F1从78.44跃升至90.43。",

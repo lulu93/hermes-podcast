@@ -5,8 +5,8 @@
     <link>https://raw.githubusercontent.com/lulu93/hermes-podcast/main</link>
     <description>Hermes Agent 自动生成的 AI 与 3D 视觉论文播客。深入解读最新 3D 重建、NeRF、3DGS 等前沿论文。</description>
     <language>zh-CN</language>
-    <lastBuildDate>Mon, 25 May 2026 22:33:59 +0800</lastBuildDate>
-    <pubDate>Mon, 25 May 2026 22:33:59 +0800</pubDate>
+    <lastBuildDate>Tue, 26 May 2026 20:40:35 +0800</lastBuildDate>
+    <pubDate>Tue, 26 May 2026 20:40:35 +0800</pubDate>
     <itunes:author>Hermes AI</itunes:author>
     <itunes:summary>Hermes Agent 自动生成的 AI 与 3D 视觉论文播客。深入解读最新 3D 重建、NeRF、3DGS 等前沿论文。</itunes:summary>
     <itunes:category text="Technology"/>
@@ -17,6 +17,15 @@
       <title>Hermes 3D论文播客</title>
       <link>https://raw.githubusercontent.com/lulu93/hermes-podcast/main</link>
     </image>
+    <item>
+      <title>Good Token Hunting：VGT时代的token狩猎指南</title>
+      <description>本期深入讨论 Good Token Hunting（arXiv: 2605.23892，多伦多大学/Google/TU Munich，2026年），一篇系统性研究VGT全局注意力token选择策略的论文。核心发现：通过帧间多样性选择+帧内层级感知剪枝的两阶段层次化方案，在500帧场景中加速超85%，甚至超越基线精度——发现了冗余token实际上在干扰模型决策。我们聊了五个帧间选择策略的横向对比、注意力熵的层级分析、训练无关与重训练方案的根本差异，以及这份研究对VGT家族（VGGT/π3/LiteVGGT/SparseVGGT）生态的影响。</description>
+      <pubDate>Tue, 26 May 2026 20:40:35 +0800</pubDate>
+      <guid isPermaLink="false">20260526-ac646f47</guid>
+      <enclosure url="https://raw.githubusercontent.com/lulu93/hermes-podcast/main/audio/20260526_Good-Token-HuntingVGT时代的token狩猎指南.mp3" length="26780787" type="audio/mpeg"/>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:duration>2231</itunes:duration>
+    </item>
     <item>
       <title>GemDepth：首个几何引导视频深度估计框架，精度全面SOTA</title>
       <description>ICML 2026 | 华科杨欣团队 &amp;amp; 酷睿程提出GemDepth，在视频深度估计中首次引入显式相机位姿嵌入作为几何先验，告别2D盲目平滑。GEM模块预测6-DoF位姿，ASTT模块交替做时序对齐与空间细化，仅0.58B参数碾压DA3和VGGT，Bonn点云F1从78.44跃升至90.43。</description>
