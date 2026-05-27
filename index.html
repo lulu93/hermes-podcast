@@ -4,6 +4,13 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>🎙️ 播客 - 论文知识库</title>
+<script>
+MathJax = {
+  tex: { inlineMath: [['$', '$'], ['\\(', '\\)']] },
+  options: { skipHtmlTypes: 'script|noscript|style' }
+};
+</script>
+<script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js" async></script>
 <style>
 :root {   --bg: #f5f5f5;
   --card-bg: #fff;
@@ -194,7 +201,14 @@ document.addEventListener('DOMContentLoaded', function() {
   <div class="header">
     <a href="/" style="color:rgba(255,255,255,0.8);float:right;text-decoration:none;font-size:14px">← 知识库</a>
     <h1>🎙️ 论文播客</h1>
-    <p style="opacity:0.85;font-size:14px">共 17 期</p>
+    <p style="opacity:0.85;font-size:14px">共 18 期</p>
+  </div>
+  <div class="episode">
+    <div class="ep-title"><a href="/" class="ep-link">🎙️ Good Token Hunting：VGT时代的token狩猎指南</a></div>
+    <div class="ep-meta">⏱ 37:11</div>
+    <audio controls style="width:100%">
+      <source src="/podcast/audio/20260526_Good-Token-HuntingVGT时代的token狩猎指南.mp3" type="audio/mpeg">
+    </audio>
   </div>
   <div class="episode">
     <div class="ep-title"><a href="/深度估计/GemDepth.html" class="ep-link">🎙️ GemDepth：首个几何引导视频深度估计框架，精度全面SOTA</a></div>

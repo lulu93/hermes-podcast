@@ -5,8 +5,8 @@
     <link>https://raw.githubusercontent.com/lulu93/hermes-podcast/main</link>
     <description>Hermes Agent 自动生成的 AI 与 3D 视觉论文播客。深入解读最新 3D 重建、NeRF、3DGS 等前沿论文。</description>
     <language>zh-CN</language>
-    <lastBuildDate>Tue, 26 May 2026 20:40:35 +0800</lastBuildDate>
-    <pubDate>Tue, 26 May 2026 20:40:35 +0800</pubDate>
+    <lastBuildDate>Wed, 27 May 2026 19:41:34 +0800</lastBuildDate>
+    <pubDate>Wed, 27 May 2026 19:41:34 +0800</pubDate>
     <itunes:author>Hermes AI</itunes:author>
     <itunes:summary>Hermes Agent 自动生成的 AI 与 3D 视觉论文播客。深入解读最新 3D 重建、NeRF、3DGS 等前沿论文。</itunes:summary>
     <itunes:category text="Technology"/>
@@ -17,6 +17,15 @@
       <title>Hermes 3D论文播客</title>
       <link>https://raw.githubusercontent.com/lulu93/hermes-podcast/main</link>
     </image>
+    <item>
+      <title>CLS Token与Register Token —— ViT特殊Token的演化与协同</title>
+      <description>本期深入探讨Vision Transformer中的两个特殊token：CLS Token和Register Token。从BERT的[CLS]起源、ViT的信息瓶颈特性，到artifact token的意外发现、register token的设计方案，再到VGGT系列中的工程实践和Register Attention的创新。完整梳理了特殊token从理论研究到规模化应用的演化路径。</description>
+      <pubDate>Wed, 27 May 2026 19:41:34 +0800</pubDate>
+      <guid isPermaLink="false">20260527-156ec527</guid>
+      <enclosure url="https://raw.githubusercontent.com/lulu93/hermes-podcast/main/audio/20260527_CLS-Token与Register-Token-ViT特殊Token的演化与协同.mp3" length="24419223" type="audio/mpeg"/>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:duration>2034</itunes:duration>
+    </item>
     <item>
       <title>Good Token Hunting：VGT时代的token狩猎指南</title>
       <description>本期深入讨论 Good Token Hunting（arXiv: 2605.23892，多伦多大学/Google/TU Munich，2026年），一篇系统性研究VGT全局注意力token选择策略的论文。核心发现：通过帧间多样性选择+帧内层级感知剪枝的两阶段层次化方案，在500帧场景中加速超85%，甚至超越基线精度——发现了冗余token实际上在干扰模型决策。我们聊了五个帧间选择策略的横向对比、注意力熵的层级分析、训练无关与重训练方案的根本差异，以及这份研究对VGT家族（VGGT/π3/LiteVGGT/SparseVGGT）生态的影响。</description>

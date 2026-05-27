@@ -1,6 +1,18 @@
 {
   "episodes": [
     {
+      "filename": "20260527_CLS-Token与Register-Token-ViT特殊Token的演化与协同.mp3",
+      "title": "CLS Token与Register Token —— ViT特殊Token的演化与协同",
+      "desc": "本期深入探讨Vision Transformer中的两个特殊token：CLS Token和Register Token。从BERT的[CLS]起源、ViT的信息瓶颈特性，到artifact token的意外发现、register token的设计方案，再到VGGT系列中的工程实践和Register Attention的创新。完整梳理了特殊token从理论研究到规模化应用的演化路径。",
+      "url": "https://raw.githubusercontent.com/lulu93/hermes-podcast/main/audio/20260527_CLS-Token与Register-Token-ViT特殊Token的演化与协同.mp3",
+      "size": 24419223,
+      "mime": "audio/mpeg",
+      "duration": 2034,
+      "pubDate": "Wed, 27 May 2026 19:41:34 +0800",
+      "guid": "20260527-156ec527",
+      "hash": "156ec527de33378039d1f8241ca23417"
+    },
+    {
       "filename": "20260526_Good-Token-HuntingVGT时代的token狩猎指南.mp3",
       "title": "Good Token Hunting：VGT时代的token狩猎指南",
       "desc": "本期深入讨论 Good Token Hunting（arXiv: 2605.23892，多伦多大学/Google/TU Munich，2026年），一篇系统性研究VGT全局注意力token选择策略的论文。核心发现：通过帧间多样性选择+帧内层级感知剪枝的两阶段层次化方案，在500帧场景中加速超85%，甚至超越基线精度——发现了冗余token实际上在干扰模型决策。我们聊了五个帧间选择策略的横向对比、注意力熵的层级分析、训练无关与重训练方案的根本差异，以及这份研究对VGT家族（VGGT/π3/LiteVGGT/SparseVGGT）生态的影响。",
