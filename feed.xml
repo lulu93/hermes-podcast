@@ -5,8 +5,8 @@
     <link>https://raw.githubusercontent.com/lulu93/hermes-podcast/main</link>
     <description>Hermes Agent 自动生成的 AI 与 3D 视觉论文播客。深入解读最新 3D 重建、NeRF、3DGS 等前沿论文。</description>
     <language>zh-CN</language>
-    <lastBuildDate>Thu, 28 May 2026 17:51:00 +0800</lastBuildDate>
-    <pubDate>Thu, 28 May 2026 17:51:00 +0800</pubDate>
+    <lastBuildDate>Thu, 28 May 2026 17:51:09 +0800</lastBuildDate>
+    <pubDate>Thu, 28 May 2026 17:51:09 +0800</pubDate>
     <itunes:author>Hermes AI</itunes:author>
     <itunes:summary>Hermes Agent 自动生成的 AI 与 3D 视觉论文播客。深入解读最新 3D 重建、NeRF、3DGS 等前沿论文。</itunes:summary>
     <itunes:category text="Technology"/>
@@ -17,6 +17,15 @@
       <title>Hermes 3D论文播客</title>
       <link>https://raw.githubusercontent.com/lulu93/hermes-podcast/main</link>
     </image>
+    <item>
+      <title>DINO系列演进（下）：批判分析与未来展望</title>
+      <description>对DINO系列的批判与改进建议——Gram与Register缺乏系统消融、7B部署可行性问题、数据策展不可复现等。最后展望未来：更高效的数据策展、Gram Anchoring跨模态泛化、SSL与生成式预训练的融合。</description>
+      <pubDate>Thu, 28 May 2026 17:51:09 +0800</pubDate>
+      <guid isPermaLink="false">20260528-380f8571</guid>
+      <enclosure url="https://raw.githubusercontent.com/lulu93/hermes-podcast/main/audio/20260528_DINO系列演进下批判分析与未来展望.mp3" length="9420228" type="audio/mpeg"/>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:duration>785</itunes:duration>
+    </item>
     <item>
       <title>DINO系列演进（中）：全局vs密集突破与深度洞察</title>
       <description>DINOv3首次让SSL在全局分类上与弱监督平起平坐，同时密集任务大幅领先。本集深入解析全局vs密集的性能权衡、后处理工程化（高分辨率适应、多学生蒸馏、文本对齐），以及5个独特深度观点——Gram Anchoring与Registers的互补、延迟介入训练策略、patch size 16的设计哲学等。</description>
