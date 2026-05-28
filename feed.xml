@@ -27,15 +27,6 @@
       <itunes:duration>638</itunes:duration>
     </item>
     <item>
-      <title>VGGT → VGGT-Ω：前馈3D重建的Scaling Law演化之路</title>
-      <description>本期深入探讨牛津VGG组+Meta AI的两篇前馈3D重建重磅论文。从VGGT的Alternating-Attention架构和Camera Token设计，到VGGT-Ω的Register Attention效率突破、Scaling Law验证（10B参数+2M序列数据）、以及40M互联网视频→800K高质量标注的完整数据管线。VGGT-Ω在Sintel动态基准上实现77%提升，Register Token还跨界增强VLA模型和文本对齐。</description>
-      <pubDate>Thu, 28 May 2026 11:02:34 +0800</pubDate>
-      <guid isPermaLink="false">20260528-858575aa</guid>
-      <enclosure url="https://raw.githubusercontent.com/lulu93/hermes-podcast/main/audio/20260528_VGGT-VGGT-Ω前馈3D重建的Scaling-Law演化之路.mp3" length="7664355" type="audio/mpeg"/>
-      <itunes:explicit>false</itunes:explicit>
-      <itunes:duration>429</itunes:duration>
-    </item>
-    <item>
       <title>CLS Token与Register Token —— ViT特殊Token的演化与协同</title>
       <description>本期深入探讨Vision Transformer中的两个特殊token：CLS Token和Register Token。从BERT的[CLS]起源、ViT的信息瓶颈特性，到artifact token的意外发现、register token的设计方案，再到VGGT系列中的工程实践和Register Attention的创新。完整梳理了特殊token从理论研究到规模化应用的演化路径。</description>
       <pubDate>Wed, 27 May 2026 19:41:34 +0800</pubDate>
