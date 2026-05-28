@@ -1,6 +1,18 @@
 {
   "episodes": [
     {
+      "filename": "20260528_DINO系列演进中全局vs密集突破与深度洞察.mp3",
+      "title": "DINO系列演进（中）：全局vs密集突破与深度洞察",
+      "desc": "DINOv3首次让SSL在全局分类上与弱监督平起平坐，同时密集任务大幅领先。本集深入解析全局vs密集的性能权衡、后处理工程化（高分辨率适应、多学生蒸馏、文本对齐），以及5个独特深度观点——Gram Anchoring与Registers的互补、延迟介入训练策略、patch size 16的设计哲学等。",
+      "url": "https://raw.githubusercontent.com/lulu93/hermes-podcast/main/audio/20260528_DINO系列演进中全局vs密集突破与深度洞察.mp3",
+      "size": 11522907,
+      "mime": "audio/mpeg",
+      "duration": 960,
+      "pubDate": "Thu, 28 May 2026 17:51:00 +0800",
+      "guid": "20260528-b248e94e",
+      "hash": "b248e94e44e0d1f9e9357dd57f46336a"
+    },
+    {
       "filename": "20260528_DINO系列演进上从自蒸馏到7B大模型.mp3",
       "title": "DINO系列演进（上）：从自蒸馏到7B大模型",
       "desc": "从DINO（2021年）的自蒸馏框架开创性发现，到DINOv2（2023年）的LVD-142M规模化验证，再到DINOv3（2025年）的ViT-7B与Gram Anchoring突破。本集聚焦训练框架演进、数据策略飞跃、模型规模扩展与密集特征退化问题的发现与解决。",
