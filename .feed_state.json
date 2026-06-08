@@ -1,6 +1,18 @@
 {
   "episodes": [
     {
+      "filename": "20260608_D4RT-高效统一动态4D重建与追踪更新版.mp3",
+      "title": "D4RT: 高效统一动态4D重建与追踪（更新版）",
+      "desc": "本期深入分析CVPR 2026最佳论文 D4RT（Efficiently Reconstructing Dynamic Scenes One D4RT at a Time, Google DeepMind + Oxford）。核心范式：按需查询替代逐帧密集解码，一个编码器+一个解码器统一输出点云、深度图、点轨迹、相机内外参。200+ FPS位姿估计，18-300×追踪吞吐量提升，SOTA on TAPVid-3D、Sintel、ScanNet。",
+      "url": "https://raw.githubusercontent.com/lulu93/hermes-podcast/main/audio/20260608_D4RT-高效统一动态4D重建与追踪更新版.mp3",
+      "size": 22412061,
+      "mime": "audio/mpeg",
+      "duration": 1867,
+      "pubDate": "Mon, 08 Jun 2026 13:41:32 +0800",
+      "guid": "20260608-b5539747",
+      "hash": "b5539747e7d767c3fa83dcda039439c9"
+    },
+    {
       "filename": "20260528_DINO系列演进下批判分析与未来展望.mp3",
       "title": "DINO系列演进（下）：批判分析与未来展望",
       "desc": "对DINO系列的批判与改进建议——Gram与Register缺乏系统消融、7B部署可行性问题、数据策展不可复现等。最后展望未来：更高效的数据策展、Gram Anchoring跨模态泛化、SSL与生成式预训练的融合。",

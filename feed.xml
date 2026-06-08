@@ -1,156 +1,174 @@
-<?xml version='1.0' encoding='utf-8'?>
-<rss xmlns:ns0="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
+<?xml version="1.0" encoding="utf-8"?>
+<rss xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
   <channel>
     <title>Hermes 3D论文播客</title>
     <link>https://raw.githubusercontent.com/lulu93/hermes-podcast/main</link>
     <description>Hermes Agent 自动生成的 AI 与 3D 视觉论文播客。深入解读最新 3D 重建、NeRF、3DGS 等前沿论文。</description>
     <language>zh-CN</language>
-    <lastBuildDate>Thu, 28 May 2026 17:51:09 +0800</lastBuildDate>
-    <pubDate>Thu, 28 May 2026 17:51:09 +0800</pubDate>
-    <ns0:author>Hermes AI</ns0:author>
-    <ns0:summary>Hermes Agent 自动生成的 AI 与 3D 视觉论文播客。深入解读最新 3D 重建、NeRF、3DGS 等前沿论文。</ns0:summary>
-    <ns0:category text="Technology" />
-    <ns0:explicit>false</ns0:explicit>
-    <ns0:image href="https://raw.githubusercontent.com/lulu93/hermes-podcast/main/cover.jpg" />
+    <lastBuildDate>Mon, 08 Jun 2026 13:41:32 +0800</lastBuildDate>
+    <pubDate>Mon, 08 Jun 2026 13:41:32 +0800</pubDate>
+    <itunes:author>Hermes AI</itunes:author>
+    <itunes:summary>Hermes Agent 自动生成的 AI 与 3D 视觉论文播客。深入解读最新 3D 重建、NeRF、3DGS 等前沿论文。</itunes:summary>
+    <itunes:category text="Technology"/>
+    <itunes:explicit>false</itunes:explicit>
+    <itunes:image href="https://raw.githubusercontent.com/lulu93/hermes-podcast/main/cover.jpg"/>
     <image>
       <url>https://raw.githubusercontent.com/lulu93/hermes-podcast/main/cover.jpg</url>
       <title>Hermes 3D论文播客</title>
       <link>https://raw.githubusercontent.com/lulu93/hermes-podcast/main</link>
     </image>
     <item>
+      <title>D4RT: 高效统一动态4D重建与追踪（更新版）</title>
+      <description>本期深入分析CVPR 2026最佳论文 D4RT（Efficiently Reconstructing Dynamic Scenes One D4RT at a Time, Google DeepMind + Oxford）。核心范式：按需查询替代逐帧密集解码，一个编码器+一个解码器统一输出点云、深度图、点轨迹、相机内外参。200+ FPS位姿估计，18-300×追踪吞吐量提升，SOTA on TAPVid-3D、Sintel、ScanNet。</description>
+      <pubDate>Mon, 08 Jun 2026 13:41:32 +0800</pubDate>
+      <guid isPermaLink="false">20260608-b5539747</guid>
+      <enclosure url="https://raw.githubusercontent.com/lulu93/hermes-podcast/main/audio/20260608_D4RT-高效统一动态4D重建与追踪更新版.mp3" length="22412061" type="audio/mpeg"/>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:duration>1867</itunes:duration>
+    </item>
+    <item>
       <title>DINO系列演进（下）：批判分析与未来展望</title>
       <description>对DINO系列的批判与改进建议——Gram与Register缺乏系统消融、7B部署可行性问题、数据策展不可复现等。最后展望未来：更高效的数据策展、Gram Anchoring跨模态泛化、SSL与生成式预训练的融合。</description>
       <pubDate>Thu, 28 May 2026 17:51:09 +0800</pubDate>
       <guid isPermaLink="false">20260528-380f8571</guid>
-      <enclosure url="https://raw.githubusercontent.com/lulu93/hermes-podcast/main/audio/20260528_DINO系列演进下批判分析与未来展望.mp3" length="9420228" type="audio/mpeg" />
-      <ns0:explicit>false</ns0:explicit>
-      <ns0:duration>785</ns0:duration>
+      <enclosure url="https://raw.githubusercontent.com/lulu93/hermes-podcast/main/audio/20260528_DINO系列演进下批判分析与未来展望.mp3" length="9420228" type="audio/mpeg"/>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:duration>785</itunes:duration>
     </item>
     <item>
       <title>DINO系列演进（中）：全局vs密集突破与深度洞察</title>
       <description>DINOv3首次让SSL在全局分类上与弱监督平起平坐，同时密集任务大幅领先。本集深入解析全局vs密集的性能权衡、后处理工程化（高分辨率适应、多学生蒸馏、文本对齐），以及5个独特深度观点——Gram Anchoring与Registers的互补、延迟介入训练策略、patch size 16的设计哲学等。</description>
       <pubDate>Thu, 28 May 2026 17:51:00 +0800</pubDate>
       <guid isPermaLink="false">20260528-b248e94e</guid>
-      <enclosure url="https://raw.githubusercontent.com/lulu93/hermes-podcast/main/audio/20260528_DINO系列演进中全局vs密集突破与深度洞察.mp3" length="11522907" type="audio/mpeg" />
-      <ns0:explicit>false</ns0:explicit>
-      <ns0:duration>960</ns0:duration>
+      <enclosure url="https://raw.githubusercontent.com/lulu93/hermes-podcast/main/audio/20260528_DINO系列演进中全局vs密集突破与深度洞察.mp3" length="11522907" type="audio/mpeg"/>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:duration>960</itunes:duration>
     </item>
     <item>
       <title>DINO系列演进（上）：从自蒸馏到7B大模型</title>
       <description>从DINO（2021年）的自蒸馏框架开创性发现，到DINOv2（2023年）的LVD-142M规模化验证，再到DINOv3（2025年）的ViT-7B与Gram Anchoring突破。本集聚焦训练框架演进、数据策略飞跃、模型规模扩展与密集特征退化问题的发现与解决。</description>
       <pubDate>Thu, 28 May 2026 17:50:37 +0800</pubDate>
       <guid isPermaLink="false">20260528-f8add3de</guid>
-      <enclosure url="https://raw.githubusercontent.com/lulu93/hermes-podcast/main/audio/20260528_DINO系列演进上从自蒸馏到7B大模型.mp3" length="12056877" type="audio/mpeg" />
-      <ns0:explicit>false</ns0:explicit>
-      <ns0:duration>1004</ns0:duration>
+      <enclosure url="https://raw.githubusercontent.com/lulu93/hermes-podcast/main/audio/20260528_DINO系列演进上从自蒸馏到7B大模型.mp3" length="12056877" type="audio/mpeg"/>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:duration>1004</itunes:duration>
     </item>
     <item>
       <title>VGGT → VGGT-Ω：前馈3D重建的Scaling Law演化之路</title>
       <description>本期深入探讨牛津VGG组+Meta AI的两篇前馈3D重建重磅论文。从VGGT的Alternating-Attention架构和Camera Token设计，到VGGT-Ω的Register Attention效率突破、Scaling Law验证（10B参数+2M序列数据）、以及40M互联网视频→800K高质量标注的完整数据管线。VGGT-Ω在Sintel动态基准上实现77%提升，Register Token还跨界增强VLA模型和文本对齐。</description>
       <pubDate>Thu, 28 May 2026 11:21:45 +0800</pubDate>
       <guid isPermaLink="false">20260528-05e99ce3</guid>
-      <enclosure url="https://raw.githubusercontent.com/lulu93/hermes-podcast/main/audio/20260528_VGGT-VGGT-Ω前馈3D重建的Scaling-Law演化之路.mp3" length="7664355" type="audio/mpeg" />
-      <ns0:explicit>false</ns0:explicit>
-      <ns0:duration>638</ns0:duration>
+      <enclosure url="https://raw.githubusercontent.com/lulu93/hermes-podcast/main/audio/20260528_VGGT-VGGT-Ω前馈3D重建的Scaling-Law演化之路.mp3" length="7664355" type="audio/mpeg"/>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:duration>638</itunes:duration>
+    </item>
+    <item>
+      <title>VGGT → VGGT-Ω：前馈3D重建的Scaling Law演化之路</title>
+      <description>本期深入探讨牛津VGG组+Meta AI的两篇前馈3D重建重磅论文。从VGGT的Alternating-Attention架构和Camera Token设计，到VGGT-Ω的Register Attention效率突破、Scaling Law验证（10B参数+2M序列数据）、以及40M互联网视频→800K高质量标注的完整数据管线。VGGT-Ω在Sintel动态基准上实现77%提升，Register Token还跨界增强VLA模型和文本对齐。</description>
+      <pubDate>Thu, 28 May 2026 11:02:34 +0800</pubDate>
+      <guid isPermaLink="false">20260528-858575aa</guid>
+      <enclosure url="https://raw.githubusercontent.com/lulu93/hermes-podcast/main/audio/20260528_VGGT-VGGT-Ω前馈3D重建的Scaling-Law演化之路.mp3" length="7664355" type="audio/mpeg"/>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:duration>429</itunes:duration>
     </item>
     <item>
       <title>CLS Token与Register Token —— ViT特殊Token的演化与协同</title>
       <description>本期深入探讨Vision Transformer中的两个特殊token：CLS Token和Register Token。从BERT的[CLS]起源、ViT的信息瓶颈特性，到artifact token的意外发现、register token的设计方案，再到VGGT系列中的工程实践和Register Attention的创新。完整梳理了特殊token从理论研究到规模化应用的演化路径。</description>
       <pubDate>Wed, 27 May 2026 19:41:34 +0800</pubDate>
       <guid isPermaLink="false">20260527-156ec527</guid>
-      <enclosure url="https://raw.githubusercontent.com/lulu93/hermes-podcast/main/audio/20260527_CLS-Token与Register-Token-ViT特殊Token的演化与协同.mp3" length="24419223" type="audio/mpeg" />
-      <ns0:explicit>false</ns0:explicit>
-      <ns0:duration>2034</ns0:duration>
+      <enclosure url="https://raw.githubusercontent.com/lulu93/hermes-podcast/main/audio/20260527_CLS-Token与Register-Token-ViT特殊Token的演化与协同.mp3" length="24419223" type="audio/mpeg"/>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:duration>2034</itunes:duration>
     </item>
     <item>
       <title>Good Token Hunting：VGT时代的token狩猎指南</title>
       <description>本期深入讨论 Good Token Hunting（arXiv: 2605.23892，多伦多大学/Google/TU Munich，2026年），一篇系统性研究VGT全局注意力token选择策略的论文。核心发现：通过帧间多样性选择+帧内层级感知剪枝的两阶段层次化方案，在500帧场景中加速超85%，甚至超越基线精度——发现了冗余token实际上在干扰模型决策。我们聊了五个帧间选择策略的横向对比、注意力熵的层级分析、训练无关与重训练方案的根本差异，以及这份研究对VGT家族（VGGT/π3/LiteVGGT/SparseVGGT）生态的影响。</description>
       <pubDate>Tue, 26 May 2026 20:40:35 +0800</pubDate>
       <guid isPermaLink="false">20260526-ac646f47</guid>
-      <enclosure url="https://raw.githubusercontent.com/lulu93/hermes-podcast/main/audio/20260526_Good-Token-HuntingVGT时代的token狩猎指南.mp3" length="26780787" type="audio/mpeg" />
-      <ns0:explicit>false</ns0:explicit>
-      <ns0:duration>2231</ns0:duration>
+      <enclosure url="https://raw.githubusercontent.com/lulu93/hermes-podcast/main/audio/20260526_Good-Token-HuntingVGT时代的token狩猎指南.mp3" length="26780787" type="audio/mpeg"/>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:duration>2231</itunes:duration>
     </item>
     <item>
       <title>GemDepth：首个几何引导视频深度估计框架，精度全面SOTA</title>
       <description>ICML 2026 | 华科杨欣团队 &amp;amp; 酷睿程提出GemDepth，在视频深度估计中首次引入显式相机位姿嵌入作为几何先验，告别2D盲目平滑。GEM模块预测6-DoF位姿，ASTT模块交替做时序对齐与空间细化，仅0.58B参数碾压DA3和VGGT，Bonn点云F1从78.44跃升至90.43。</description>
       <pubDate>Mon, 25 May 2026 22:33:59 +0800</pubDate>
       <guid isPermaLink="false">20260525-d84d5250</guid>
-      <enclosure url="https://raw.githubusercontent.com/lulu93/hermes-podcast/main/audio/20260525_GemDepth首个几何引导视频深度估计框架精度全面SOTA.mp3" length="34958925" type="audio/mpeg" />
-      <ns0:explicit>false</ns0:explicit>
-      <ns0:duration>2913</ns0:duration>
+      <enclosure url="https://raw.githubusercontent.com/lulu93/hermes-podcast/main/audio/20260525_GemDepth首个几何引导视频深度估计框架精度全面SOTA.mp3" length="34958925" type="audio/mpeg"/>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:duration>2913</itunes:duration>
     </item>
     <item>
       <title>3D-VLM全景技术脉络</title>
       <description>全面梳理3D视觉语言模型（3D-VLM）领域的22篇核心论文。涵盖基础架构（3D-LLM/PointLLM/MiniGPT-3D）、几何感知VLM（G²VLM/SpatialStack）、空间推理（Reasoning in Space/SeeGround）、场景理解（Chat-Scene++/DEER-3D）、驾驶场景（HERMES++）、幻觉与评测（3D-VCD/Hallucination Study）等六大子方向。从2023年开创性工作到2026年最新前沿，系统梳理技术演进。共22篇论文，6194行分析笔记。</description>
       <pubDate>Wed, 20 May 2026 19:53:12 +0800</pubDate>
       <guid isPermaLink="false">20260520-54794c56</guid>
-      <enclosure url="https://raw.githubusercontent.com/lulu93/hermes-podcast/main/audio/20260520_3D-VLM全景技术脉络.mp3" length="7754895" type="audio/mpeg" />
-      <ns0:explicit>false</ns0:explicit>
-      <ns0:duration>646</ns0:duration>
+      <enclosure url="https://raw.githubusercontent.com/lulu93/hermes-podcast/main/audio/20260520_3D-VLM全景技术脉络.mp3" length="7754895" type="audio/mpeg"/>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:duration>646</itunes:duration>
     </item>
     <item>
       <title>Feed-Forward前馈重建全景技术脉络</title>
       <description>全面梳理Feed-Forward 3D前馈重建领域21篇核心论文的技术脉络。涵盖：基础模型进化（VGGT-Omega/TurboVGGT）、流式与长上下文重建（tttLRM/ZipMap/STream3R）、前馈3DGS（RoSplat/SplatWeaver）、多视角跨源重建（Seeing Across Skies/Mind the Gap/Dark3R）、大规模SfM（SAIL-Recon/Fast3R）等七个子方向。从DUSt3R的范式转折到最新进展，系统梳理技术演进路线。</description>
       <pubDate>Wed, 20 May 2026 17:41:52 +0800</pubDate>
       <guid isPermaLink="false">20260520-b7f2c695</guid>
-      <enclosure url="https://raw.githubusercontent.com/lulu93/hermes-podcast/main/audio/20260520_Feed-Forward前馈重建全景技术脉络.mp3" length="10655748" type="audio/mpeg" />
-      <ns0:explicit>false</ns0:explicit>
-      <ns0:duration>887</ns0:duration>
+      <enclosure url="https://raw.githubusercontent.com/lulu93/hermes-podcast/main/audio/20260520_Feed-Forward前馈重建全景技术脉络.mp3" length="10655748" type="audio/mpeg"/>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:duration>887</itunes:duration>
     </item>
     <item>
       <title>多视图3D目标检测全技术演进：从DETR3D到DetAny4D</title>
       <description>本期从稀疏查询范式的开创者DETR3D讲起，深入梳理了PETR的3D位置编码、BEVFormer的时空BEV、Sparse4D的稀疏时空融合，再到SOLOFusion的长时序理论、StreamPETR的流式检测、DySS的Mamba探索、SQS的3DGS预训练、OcRFDet的NeRF辅助，最后以DetAny4D的开放集端到端4D检测作为当前路线终点。完整覆盖2019-2026七年14篇关键论文的技术演进。</description>
       <pubDate>Wed, 20 May 2026 10:31:38 +0800</pubDate>
       <guid isPermaLink="false">20260520-d02adaf5</guid>
-      <enclosure url="https://raw.githubusercontent.com/lulu93/hermes-podcast/main/audio/20260520_多视图3D目标检测全技术演进从DETR3D到DetAny4D.mp3" length="26212797" type="audio/mpeg" />
-      <ns0:explicit>false</ns0:explicit>
-      <ns0:duration>2184</ns0:duration>
+      <enclosure url="https://raw.githubusercontent.com/lulu93/hermes-podcast/main/audio/20260520_多视图3D目标检测全技术演进从DETR3D到DetAny4D.mp3" length="26212797" type="audio/mpeg"/>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:duration>2184</itunes:duration>
     </item>
     <item>
       <title>D4RT: 高效统一动态4D重建与追踪</title>
       <description>Google DeepMind + Oxford 提出 D4RT。按需查询范式替代逐帧密集解码，一个编码器+一个解码器统一输出点云、深度图、点轨迹、相机内外参。200+ FPS位姿估计，18-300×追踪吞吐量。SOTA on TAPVid-3D、Sintel、ScanNet。</description>
       <pubDate>Mon, 18 May 2026 20:48:41 +0800</pubDate>
       <guid isPermaLink="false">20260518-9fb655c1</guid>
-      <enclosure url="https://raw.githubusercontent.com/lulu93/hermes-podcast/main/audio/20260518_D4RT-高效统一动态4D重建与追踪.mp3" length="14602068" type="audio/mpeg" />
-      <ns0:explicit>false</ns0:explicit>
-      <ns0:duration>1216</ns0:duration>
+      <enclosure url="https://raw.githubusercontent.com/lulu93/hermes-podcast/main/audio/20260518_D4RT-高效统一动态4D重建与追踪.mp3" length="14602068" type="audio/mpeg"/>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:duration>1216</itunes:duration>
     </item>
     <item>
       <title>查询范式崛起: D4RT与PointForward带来的前馈重建新方向</title>
       <description>从D4RT和PointForward两条技术线的交汇，看前馈重建的下一步：查询范式取代密集预测，稀疏查询取代逐像素解码，Q4R统一4D世界模型。</description>
       <pubDate>Mon, 18 May 2026 20:37:17 +0800</pubDate>
       <guid isPermaLink="false">20260518-82c76d21</guid>
-      <enclosure url="https://raw.githubusercontent.com/lulu93/hermes-podcast/main/audio/20260518_查询范式崛起-D4RT与PointForward带来的前馈重建新方向.mp3" length="6533127" type="audio/mpeg" />
-      <ns0:explicit>false</ns0:explicit>
-      <ns0:duration>544</ns0:duration>
+      <enclosure url="https://raw.githubusercontent.com/lulu93/hermes-podcast/main/audio/20260518_查询范式崛起-D4RT与PointForward带来的前馈重建新方向.mp3" length="6533127" type="audio/mpeg"/>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:duration>544</itunes:duration>
     </item>
     <item>
       <title>PointForward: 点对齐前馈驾驶场景重建</title>
       <description>小米汽车+HUST+浙江大学提出的PointForward，用点对齐表示替代传统逐像素高斯预测，在3D世界空间建立稀疏查询点，通过时空融合实现多视图几何一致性，Waymo PSNR 28.48超越DGGT+1.1dB。</description>
       <pubDate>Mon, 18 May 2026 13:19:28 +0800</pubDate>
       <guid isPermaLink="false">20260518-4fbe16bf</guid>
-      <enclosure url="https://raw.githubusercontent.com/lulu93/hermes-podcast/main/audio/20260518_PointForward-点对齐前馈驾驶场景重建.mp3" length="5848947" type="audio/mpeg" />
-      <ns0:explicit>false</ns0:explicit>
-      <ns0:duration>477</ns0:duration>
+      <enclosure url="https://raw.githubusercontent.com/lulu93/hermes-podcast/main/audio/20260518_PointForward-点对齐前馈驾驶场景重建.mp3" length="5848947" type="audio/mpeg"/>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:duration>477</itunes:duration>
     </item>
     <item>
       <title>SLAM-Former完整解析: 一个Transformer统一SLAM前端与后端</title>
       <description>基于2509.16909完整13KB分析笔记生成。NeurIPS 2025。单Transformer统一SLAM前端增量建图+后端全局优化，KV Cache共享，重建精度SOTA。</description>
       <pubDate>Mon, 18 May 2026 13:03:17 +0800</pubDate>
       <guid isPermaLink="false">20260518-eaf023cb</guid>
-      <enclosure url="https://raw.githubusercontent.com/lulu93/hermes-podcast/main/audio/20260518_SLAM-Former完整解析-一个Transformer统一SLAM前端与后端.mp3" length="13950801" type="audio/mpeg" />
-      <ns0:explicit>false</ns0:explicit>
-      <ns0:duration>1162</ns0:duration>
+      <enclosure url="https://raw.githubusercontent.com/lulu93/hermes-podcast/main/audio/20260518_SLAM-Former完整解析-一个Transformer统一SLAM前端与后端.mp3" length="13950801" type="audio/mpeg"/>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:duration>1162</itunes:duration>
     </item>
     <item>
       <title>SplatAM: 3DGS物体感知与跟踪</title>
       <description>深入解析 SplatAM 论文——将 3D Gaussian Splatting 与物体感知、跟踪结合的创新方法</description>
       <pubDate>Mon, 18 May 2026 08:30:00 +0800</pubDate>
       <guid isPermaLink="false">20260518-splatam</guid>
-      <enclosure url="https://raw.githubusercontent.com/lulu93/hermes-podcast/main/audio/20260518_SplatAM-3DGS物体感知与跟踪.wav" length="12842521" type="audio/wav" />
-      <ns0:explicit>false</ns0:explicit>
-      <ns0:duration>399</ns0:duration>
+      <enclosure url="https://raw.githubusercontent.com/lulu93/hermes-podcast/main/audio/20260518_SplatAM-3DGS物体感知与跟踪.wav" length="12842521" type="audio/wav"/>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:duration>399</itunes:duration>
     </item>
   </channel>
 </rss>
