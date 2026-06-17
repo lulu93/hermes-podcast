@@ -1,6 +1,18 @@
 {
   "episodes": [
     {
+      "filename": "20260617_Point-Transformer进化链PTv1PTv2PTv3PTv3x.mp3",
+      "title": "Point Transformer进化链：PTv1→PTv2→PTv3→PTv3x",
+      "desc": "本期深度解读Point Transformer系列完整进化链。从PTv1（首个点云Transformer，kNN注意力）到PTv2（Grouped Vector Attention，计算量大幅降低），再到PTv3（Serialized Attention范式革命，simpler/faster/stronger），最后到PTv3x（Waymo 2024语义分割冠军方案）。覆盖四代架构的设计动机、关键技术和性能对比。",
+      "url": "https://raw.githubusercontent.com/lulu93/hermes-podcast/main/audio/20260617_Point-Transformer进化链PTv1PTv2PTv3PTv3x.mp3",
+      "size": 26195706,
+      "mime": "audio/mpeg",
+      "duration": 2182,
+      "pubDate": "Wed, 17 Jun 2026 08:50:52 +0800",
+      "guid": "20260617-7f42e2bf",
+      "hash": "7f42e2bf211b903717986229ec5f1881"
+    },
+    {
       "filename": "20260608_D4RT-高效统一动态4D重建与追踪更新版.mp3",
       "title": "D4RT: 高效统一动态4D重建与追踪（更新版）",
       "desc": "本期深入分析CVPR 2026最佳论文 D4RT（Efficiently Reconstructing Dynamic Scenes One D4RT at a Time, Google DeepMind + Oxford）。核心范式：按需查询替代逐帧密集解码，一个编码器+一个解码器统一输出点云、深度图、点轨迹、相机内外参。200+ FPS位姿估计，18-300×追踪吞吐量提升，SOTA on TAPVid-3D、Sintel、ScanNet。",
