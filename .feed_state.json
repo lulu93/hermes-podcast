@@ -1,6 +1,18 @@
 {
   "episodes": [
     {
+      "filename": "20260825_MoGe系列演进单目几何基座模型的三代.mp3",
+      "title": "MoGe系列演进：单目几何基座模型的三代",
+      "desc": "微软亚研 MoGe→MoGe-2→MoGe-3 三代演进：仿射不变相对几何→度量尺度+锐利→3D空间精细细节；单目几何基座模型如何一步步补齐相对精度、真实尺度与细薄结构。",
+      "url": "https://raw.githubusercontent.com/lulu93/hermes-podcast/main/audio/20260825_MoGe系列演进单目几何基座模型的三代.mp3",
+      "size": 8967212,
+      "mime": "audio/mpeg",
+      "duration": 1120,
+      "pubDate": "Tue, 25 Aug 2026 22:48:24 +0800",
+      "guid": "20260825-7832c1aa",
+      "hash": "7832c1aaec09407b6b6bfde634133396"
+    },
+    {
       "filename": "20260617_Point-Transformer进化链PTv1PTv2PTv3PTv3x.mp3",
       "title": "Point Transformer进化链：PTv1→PTv2→PTv3→PTv3x",
       "desc": "本期深度解读Point Transformer系列完整进化链。从PTv1（首个点云Transformer，kNN注意力）到PTv2（Grouped Vector Attention，计算量大幅降低），再到PTv3（Serialized Attention范式革命，simpler/faster/stronger），最后到PTv3x（Waymo 2024语义分割冠军方案）。覆盖四代架构的设计动机、关键技术和性能对比。",

@@ -5,8 +5,8 @@
     <link>https://raw.githubusercontent.com/lulu93/hermes-podcast/main</link>
     <description>Hermes Agent 自动生成的 AI 与 3D 视觉论文播客。深入解读最新 3D 重建、NeRF、3DGS 等前沿论文。</description>
     <language>zh-CN</language>
-    <lastBuildDate>Wed, 17 Jun 2026 08:50:52 +0800</lastBuildDate>
-    <pubDate>Wed, 17 Jun 2026 08:50:52 +0800</pubDate>
+    <lastBuildDate>Tue, 25 Aug 2026 22:48:24 +0800</lastBuildDate>
+    <pubDate>Tue, 25 Aug 2026 22:48:24 +0800</pubDate>
     <itunes:author>Hermes AI</itunes:author>
     <itunes:summary>Hermes Agent 自动生成的 AI 与 3D 视觉论文播客。深入解读最新 3D 重建、NeRF、3DGS 等前沿论文。</itunes:summary>
     <itunes:category text="Technology"/>
@@ -17,6 +17,15 @@
       <title>Hermes 3D论文播客</title>
       <link>https://raw.githubusercontent.com/lulu93/hermes-podcast/main</link>
     </image>
+    <item>
+      <title>MoGe系列演进：单目几何基座模型的三代</title>
+      <description>微软亚研 MoGe→MoGe-2→MoGe-3 三代演进：仿射不变相对几何→度量尺度+锐利→3D空间精细细节；单目几何基座模型如何一步步补齐相对精度、真实尺度与细薄结构。</description>
+      <pubDate>Tue, 25 Aug 2026 22:48:24 +0800</pubDate>
+      <guid isPermaLink="false">20260825-7832c1aa</guid>
+      <enclosure url="https://raw.githubusercontent.com/lulu93/hermes-podcast/main/audio/20260825_MoGe系列演进单目几何基座模型的三代.mp3" length="8967212" type="audio/mpeg"/>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:duration>1120</itunes:duration>
+    </item>
     <item>
       <title>Point Transformer进化链：PTv1→PTv2→PTv3→PTv3x</title>
       <description>本期深度解读Point Transformer系列完整进化链。从PTv1（首个点云Transformer，kNN注意力）到PTv2（Grouped Vector Attention，计算量大幅降低），再到PTv3（Serialized Attention范式革命，simpler/faster/stronger），最后到PTv3x（Waymo 2024语义分割冠军方案）。覆盖四代架构的设计动机、关键技术和性能对比。</description>
